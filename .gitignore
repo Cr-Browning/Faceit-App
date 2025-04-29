@@ -19,3 +19,16 @@ target/
 # Added by cargo
 
 /target
+
+# env variables
+.env
+
+package-lock.json
+package.json
+requirements.txt
+tailwind.config.js
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+node_modules/
+.gitignore_hidden_message
