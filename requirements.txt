@@ -1,0 +1,33 @@
+# System Requirements
+# 1. Node.js (v18 or later)
+# 2. Rust (latest stable)
+# 3. Python (for some build tools)
+
+# Frontend Dependencies (npm)
+react@^18.2.0
+react-dom@^18.2.0
+@tauri-apps/cli@^1.5.0
+@types/react@^18.2.0
+@types/react-dom@^18.2.0
+@vitejs/plugin-react@^4.2.0
+typescript@^5.0.2
+vite@^5.0.0
+tailwindcss@latest
+postcss@latest
+autoprefixer@latest
+
+# Rust Dependencies (Cargo)
+tauri@1.5.0
+tauri-build@1.5.0
+serde@1.0
+serde_json@1.0
+
+# Installation Instructions:
+# 1. Install Node.js from https://nodejs.org/
+# 2. Install Rust from https://rustup.rs/
+# 3. Install Python from https://www.python.org/ (if not already installed)
+# 4. Run: npm install
+# 5. Run: cargo install tauri-cli
+# 6. Run: npm run tauri dev
+
+# Note: Make sure to set up your FACEIT_API_KEY in the .env file 
